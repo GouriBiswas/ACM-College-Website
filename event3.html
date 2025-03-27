@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event 1 Details</title>
+  <!-- Include Bootstrap and custom styles -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* Center and broaden event content */
+    .event-container {
+      margin: 80px auto;
+      max-width: 900px; /* Broader container */
+      padding: 30px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .event-container h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .event-container p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .event-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .event-container a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #007bff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .event-container a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header id="header" class="header fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo"><img src="assets/img/svpcet-acm-logo.png" alt="SVPCET-ACM"></a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li><a class="nav-link scrollto active" href="events.html">Events</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main" class="mt-5">
+    <div class="container">
+      <div class="event-container">
+        <h2>Event 3: BIDCAS</h2>
+        <p class="post-date">Date: Thrusday, December 10</p>
+        <p>
+            no content
+        </p>
+        <p>
+           NONEE
+        </p>
+
+        <!-- Image Grid -->
+        <div class="image-grid">
+          <img src="assets/img/events/bid 1.jpg" alt="Event 1 Picture 1">
+          <img src="assets/img/events/bid 2.jpg" alt="Event 1 Picture 2">
+          <img src="assets/img/events/bid 3.jpg" alt="Event 1 Picture 3">
+          <img src="assets/img/events/bid 4.jpg" alt="Event 1 Picture 4">
+          <img src="assets/img/events/bid 5.jpg" alt="Event 1 Picture 5">
+          <img src="assets/img/events/bid 6.jpg" alt="Event 1 Picture 5">
+        </div>
+
+        <a href="index.html">Back to Main Page</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container text-center">
+        <p>&copy; 2024 SVPCET-ACM. All Rights Reserved.</p>
+        <div class="footer-social-links mt-3">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Include JavaScript Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
