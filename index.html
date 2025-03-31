@@ -45,31 +45,38 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+ <!-- Top Navbar with College Name and Logo -->
+<div class="top-navbar d-flex justify-content-between align-items-center px-4">
+  <img src="assets/img/svpcet-acm-logo.png" alt="College Logo" class="college-logo">
+  <h1 class="college-name">SVPCET - ACM Chapter</h1>
+  <img src="assets/img/college.logo.jpeg" alt="College Logo" class="college-logo">
+</div>
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/acm-logo.png" alt="">
-      </a>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#domains">Domains</a></li>
-          <li><a class="nav-link scrollto" href="events.html">Events</a></li>
-          <li><a class="nav-link scrollto" href="acm-visit.html">ACM Visit</a></li> <!-- New link added -->
-          <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Join Us</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+<!-- Main Navigation Bar -->
+<header id="header" class="header">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-flex align-items-center">
       
-      <!-- .navbar -->
+    </a>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+        <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto" href="#domains">Domains</a></li>
+        <li><a class="nav-link scrollto" href="events.html">Events</a></li>
+        <li><a class="nav-link scrollto active" href="acm-visit.html">ACM Visit</a></li>
+        <li><a class="nav-link scrollto" href="teams.html">Team</a></li>
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        <li><a class="getstarted scrollto" href="#about">Join Us</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+  </div>
+</header>
 
-    </div>
-  </header><!-- End Header -->
+<div class="group-image-section">
+  <img src="path/to/your/group-image.jpg" alt="Group of Students" class="group-image">
+</div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
@@ -106,33 +113,39 @@
   <!-- End Hero -->
 
   <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+   
+   <!-- ======= About Section ======= -->
+<section id="about" class="about">
 
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
+  <div class="container" data-aos="fade-up">
+    <div class="row gx-0">
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              <h3>Who We Are</h3>
-              <p class="text-justify">ACM StudentChapter, Department of Computer Engineering, SVPCET was started in the year 2019, a student
-                society that provides opportunities for students to network, learn, and share knowledge.The chapter conducts seminars,
-                lectures, and workshops for shared networking opportunities with peers and experts across the computing
-                spectrum. Also, these included a series of technical events that offers students both interesting
-                technical content and career opportunities.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-
+      <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="content">
+          <h3>Who We Are</h3>
+          <p class="text-justify">
+            The ACM Student Chapter at the Department of Computer Engineering, SVPCET, was established in 2019 to cultivate a vibrant community of technology enthusiasts. Our mission is to provide students with opportunities to enhance their skills, collaborate on innovative projects, and engage with industry leaders. 
+          </p>
+          <p class="text-justify">
+            We organize a variety of events, including seminars, workshops, and technical talks, aimed at bridging the gap between academic learning and real-world application. Our members benefit from networking opportunities, hands-on experience, and insights into the latest advancements in computing. 
+          </p>
+          <p class="text-justify">
+            Through our activities, we aim to empower students to become proficient professionals who can contribute meaningfully to the tech industry and drive technological innovation.
+          </p>
         </div>
       </div>
 
-    </section>
-    <!-- End About Section -->
+      <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+        <img src="assets/img/about.jpg" class="img-fluid" alt="ACM Student Chapter" />
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- End About Section -->
+
+<!-- End About Section -->
 
     <!-- ======= Values Section ======= -->
     <section id="values" class="values">
@@ -227,85 +240,72 @@
     <!-- End Counts Section -->
 
 
+<!-- ======= Services Section ======= -->
+<section id="domains" class="services">
 
+  <div class="container" data-aos="fade-up">
 
+    <header class="section-header">
+      <h2>Domains</h2>
+      <p>Unlock the potential of your domain</p>
+    </header>
 
-    <!-- ======= Services Section ======= -->
-    <section id="domains" class="services">
+    <div class="row gy-4">
 
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Domains</h2>
-          <p>Unlock the potential of your domain</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-box blue">
-              <i class="bi bi-laptop icon"></i>
-              <h3>Technical</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores rerum repellat sed consequuntur ex
-                incidunt dolore </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box orange">
-              <i class="bi bi-braces icon"></i>
-              <h3>Competetive Programming</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores rerum repellat sed consequuntur ex
-                incidunt dolore </p>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box green">
-              <i class="bi bi-code-slash icon"></i>
-              <h3>Web Development</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores rerum repellat sed consequuntur ex
-                incidunt dolore </p>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box red">
-              <i class="bi bi-journal icon"></i>
-              <h3>Management</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores rerum repellat sed consequuntur ex
-                incidunt dolore </p>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box purple">
-              <i class="bi-ui-radios-grid icon"></i>
-              <h3>Creative</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores rerum repellat sed consequuntur ex
-                incidunt dolore </p>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box pink">
-              <i class="bi bi-graph-up icon"></i>
-              <h3>Publicity</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores rerum repellat sed consequuntur ex
-                incidunt dolore </p>
-
-            </div>
-          </div>
-
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-box blue">
+          <i class="bi bi-laptop icon"></i>
+          <h3>Technical</h3>
+          <p>Engage in hands-on projects and workshops focusing on cutting-edge technologies, including AI, IoT, and data science. Enhance your skills through collaborative learning and real-world applications.</p>
         </div>
-
       </div>
 
-    </section>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-box orange">
+          <i class="bi bi-braces icon"></i>
+          <h3>Competitive Programming</h3>
+          <p>Join our competitive programming sessions to sharpen your coding skills. Participate in contests, hackathons, and coding challenges to prepare for technical interviews and improve your problem-solving abilities.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-box green">
+          <i class="bi bi-code-slash icon"></i>
+          <h3>Web Development</h3>
+          <p>Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Collaborate on group projects to build dynamic and responsive websites, enhancing your portfolio for future opportunities.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-box red">
+          <i class="bi bi-journal icon"></i>
+          <h3>Management</h3>
+          <p>Develop leadership and organizational skills by participating in event planning and project management activities. Engage with peers to understand the dynamics of managing teams and resources effectively.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-box purple">
+          <i class="bi-ui-radios-grid icon"></i>
+          <h3>Creative</h3>
+          <p>Express your creativity through design and multimedia projects. Collaborate on innovative ideas for marketing materials, promotional videos, and creative campaigns to raise awareness about our chapter's initiatives.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+        <div class="service-box pink">
+          <i class="bi bi-graph-up icon"></i>
+          <h3>Publicity</h3>
+          <p>Promote ACM events and activities through social media and campus outreach. Engage the student body by sharing success stories, project updates, and opportunities available within the ACM community.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
 
     <!-- End Services Section -->
 
@@ -400,207 +400,6 @@
 
 </section>
 <!-- End Testimonials Section -->
-
-<!-- ======= Recent Blog Posts Section ======= -->
-<section id="events" class="events">
-
-  <div class="container" data-aos="fade-up">
-
-    <header class="section-header">
-      <h2>Events</h2>
-      <p>Book your next special celebration with us!</p>
-    </header>
-
-    <div class="row">
-
-      <div class="col-lg-4">
-        <div class="post-box">
-          <div class="post-img"><img src="assets/img/events/blog-1.jpg" class="img-fluid" alt=""></div>
-          <span class="post-date">Tue, September 15</span>
-          <h3 class="post-title">Event-1:assumenda est et veritatis aut quae</h3>
-          <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="post-box">
-          <div class="post-img"><img src="assets/img/events/blog-2.jpg" class="img-fluid" alt=""></div>
-          <span class="post-date">Fri, August 28</span>
-          <h3 class="post-title">Event-2:Quia assumenda est et veritatis aut quae</h3>
-          <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="post-box">
-          <div class="post-img"><img src="assets/img/events/blog-3.jpg" class="img-fluid" alt=""></div>
-          <span class="post-date">Mon, July 11</span>
-          <h3 class="post-title">Event-3:Quia assumenda est et veritatis aut quae</h3>
-          <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="text-center mt-5">
-      <a href="events.html" class=" btn-view-team">
-        <span>View all events</span>
-        <i class="bi bi-arrow-right"></i>
-      </a>
-    </div>
-  </div>
-</section><!-- End Recent Blog Posts Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Team</h2>
-          <p>Many sparks can make a fire rise higher</p>
-        </header>
-
-        <div class="row gy-4 faculty-incharge-div" >
-          <div class="col-12  align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/maam.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Prof. Pallavi Wankhede</h4>
-                <span>Faculty Incharge</span>
-                <!-- <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p> -->
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h2 class="pt-5 pb-5 text-center">Core Team</h2>
-
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/mentor/janhavi.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Janhavi Upadhye</h4>
-                <span>Student Mentor(4th yr.)</span>
-                <!-- <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/mentor/mansi.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Mansi Keshattiwar</h4>
-                <span>Student Mentor(4th yr.)</span>
-                <!-- <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/mentor/chirag.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Chirag Agrawal</h4>
-                <span>Student Mentor(4th yr.)</span>
-                <!-- <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p> -->
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="text-center mt-5">
-          <a href="teams.html" class=" btn-view-team">
-            <span>View Team</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- End Team Section -->
-
-    
-
-   
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </header>
-
-        <div class="row text-center gy-4">
-
-          <div class="col-lg-4">
-
-            <div class="info-box">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <p>ST. Vincent Pallotti College Of Engineering & Technology, Gavasi Manapur, Wardha Road, Nagpur.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="info-box">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="info-box">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>svpcetacm@gmail.com</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">

@@ -37,6 +37,43 @@ h6 {
   font-family: "Nunito", sans-serif;
 }
 
+.top-navbar {
+  background: linear-gradient(135deg, #003366, #0059b3); /* Elegant Blue Gradient */
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 20px 0; /* Increased height */
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 80px; /* Increase height */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+
+.college-logo {
+  height: 100px; /* Larger for better visibility */
+}
+
+.group-image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Adjust height as needed */
+  background-color: #f4f4f4; /* Background color for the section */
+  margin-top: 10px; /* Space between navbar and image section */
+}
+
+.group-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Ensure the image covers the section nicely */
+}
+
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -74,6 +111,22 @@ section {
     line-height: 32px;
   }
 }
+
+.about {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 60px 0; /* Increased padding for better spacing */
+}
+
+.about img {
+  border-radius: 15px; /* Rounded corners for the image */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease; /* Smooth scaling effect on hover */
+}
+
+.about img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
 
 
 /*--------------------------------------------------------------
