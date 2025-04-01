@@ -49,29 +49,66 @@ h6 {
 }
 
 .navbar .logo img {
-  height: 80px; /* Increase height */
+  height: 100px; /* Increase height */
   width: auto;  /* Maintain aspect ratio */
 }
 
 
 .college-logo {
-  height: 100px; /* Larger for better visibility */
+  height:150px; /* Larger for better visibility */
 }
 
 .group-image-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px; /* Adjust height as needed */
-  background-color: #f4f4f4; /* Background color for the section */
-  margin-top: 10px; /* Space between navbar and image section */
+  height: 600px;
+  width: 100%;
+  background-color: #e0e0e0; /* Light grey background */
+  margin-top: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
 .group-image {
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover; /* Ensure the image covers the section nicely */
+  object-fit: cover;
+  object-fit: cover;
+  position: relative;
+  z-index: 2; /* Keep the image above the text */
+
+  border-radius: 10px; /* Optional: Soft rounded corners */
 }
+
+
+/* 🔥 Huge, Faded, Light Blue "BATCH 2026" */
+.batch-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 260px; /* Large font */
+  font-weight: 950; /* Extra bold */
+  color: rgba(41, 57, 87, 0.32); /* Light blue transparent effect */
+  text-transform: uppercase;
+  letter-spacing: 14px;
+  z-index: 1; /* Behind the image */
+  white-space: nowrap; /* Prevents wrapping */
+  filter: blur(2px); /* Soft blur effect */
+  user-select: none; /* Prevent selection */
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+/* ✨ Subtle Hover Effect */
+.group-image-section:hover .batch-text {
+  filter: blur(2px);
+  opacity: 0.3;
+}
+
+
 
 
 /*--------------------------------------------------------------
@@ -126,6 +163,8 @@ section {
 .about img:hover {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
+
+
 
 
 
