@@ -1,5 +1,7 @@
 # ACM College Website
 
+
+
 Welcome to the ACM College Website project! This website serves as a platform for the ACM Student Chapter at Sanket Vikas Pratishthan College of Engineering and Technology (SVPCET). The site is designed to provide information about the chapter's activities, events, and resources for students.
 
 ## Table of Contents
