@@ -31,9 +31,7 @@ Welcome to the ACM College Website project! This website serves as a platform fo
 ## Glimpse of the HomePage
 - ![image](https://github.com/user-attachments/assets/5488b111-ff45-40e9-b5ad-5cbc42024c88)
 
-Contributors
 
-[Gouri Biswas] – Lead Developer
 
 ACM Student Chapter Team
 
